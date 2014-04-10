@@ -115,6 +115,8 @@ hr {
   margin-top: 20px;
   margin-bottom: 30px; }
 
+
+
 .container {
   width: 500px;
   margin: 0 auto; }
@@ -318,10 +320,10 @@ hr {
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-8 .tile-inner {
+  .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #f2b179; }
-  .tile.tile-16 .tile-inner {
+  .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #f59563; }
   .tile.tile-32 .tile-inner {
@@ -362,20 +364,20 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-2048 .tile-inner {
+  .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
+      .tile.tile-8 .tile-inner {
         font-size: 15px; } }
-  .tile.tile-super .tile-inner {
+  .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-super .tile-inner {
+      .tile.tile-16 .tile-inner {
         font-size: 10px; } }
 
 @-webkit-keyframes appear {
